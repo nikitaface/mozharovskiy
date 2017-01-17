@@ -1,0 +1,19 @@
+// ABOUT.HTML
+// ABOUT.HTML
+// ABOUT.HTML
+.short-bio--no-bg {
+	background: none;
+
+	.content {
+		padding-top: 50px;
+		padding-bottom: 67px;
+	}
+
+	.title {
+		margin-bottom: 35px;
+		color: $text-black;
+		text-transform: uppercase;
+		text-align: center;
+		@include calibri-bold(18px);
+	}
+}

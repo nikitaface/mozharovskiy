@@ -1,0 +1,31 @@
+// FOOTER
+// FOOTER
+// FOOTER
+.footer {
+	font-size: 0;
+	background-color: #1a1a1a;
+
+	.left-block, .right-block {
+		display: inline-block;
+		width: 50%;
+		padding: 10px 0;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.left-block {
+
+		.copyright {
+			color: #fff;
+			@include calibri-regular(14px);
+		}
+	}
+
+	.right-block {
+
+		.developed-by {
+			color: #fff;
+			@include calibri-regular(14px);
+		}
+	}
+}

@@ -1,0 +1,18 @@
+@import "reset", "fonts",
+		"./css/libs/slick", "./css/libs/slick-theme",
+		"./css/libs/parsley",
+		"./css/libs/blueimp-gallery.min";
+
+@import "vars", "mixins", "base";
+
+@import "./css/components/overlay",
+		"./css/components/header",
+		"./css/components/section-books",
+		"./css/components/short-bio",
+		"./css/components/pre-footer",
+		"./css/components/footer",
+		"./css/components/thoughts.html",
+		"./css/components/about.html",
+		"./css/components/photos.html",
+		"./css/components/contacts.html",
+		"./css/components/readmore.html";

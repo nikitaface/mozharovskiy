@@ -1,0 +1,11 @@
+body {
+	@include calibri-regular(16px);
+	color: $text-black;
+	background-color: $white;
+}
+
+.content {
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}

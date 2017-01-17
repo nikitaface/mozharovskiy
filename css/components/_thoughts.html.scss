@@ -1,0 +1,66 @@
+// THOUGHTS.HTML
+// THOUGHTS.HTML
+// THOUGHTS.HTML
+main.thoughts {
+	background-color: $white;
+	border-bottom: 1px solid #b3b3b3;
+
+	.content {
+		padding: 50px 0;
+	}
+}
+
+.thoughts-block {
+	position: relative;
+	width: 53.72%;
+	margin: 0 auto;
+	text-align: center;
+
+	&:before, &:after {
+		position: absolute;
+		display: inline-block;
+		height: 42px;
+		color: #808080;
+		@include timesnewroman-regular(80px);
+	}
+
+	&:before {
+		content: "\201C";
+		top: 7px;
+		left: -50px;
+	}
+
+	&:after {
+		content: "\201D";
+		bottom: -23px;
+		right: -50px;
+	}
+}
+
+.thoughts__title {
+	color: $text-black;
+	@include calibri-bold(15px);
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.thought-block {
+	padding: 56px 100px;
+	border-radius: 2px;
+	background-color: #f1f2f2;
+	margin-bottom: 10px;
+
+	&:hover {
+		// transform: perspective(1px) scale(1.03);
+	}
+}
+
+.thought-block__text {
+	color: #808080;
+	@include timesnewroman-regular(15px);
+}
+
+.thought-block--even {
+	border: 1px solid #b3b3b3;
+	background-color: transparent;
+}

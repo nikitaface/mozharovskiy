@@ -1,0 +1,56 @@
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+@function rem($px) {
+	@return $px / 16px + 0rem;
+}
+
+@mixin desktop {
+	@media screen and (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media screen and (max-width: 992px) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media screen and (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin phone {
+	@media screen and (max-width: 480px) {
+		@content;
+	}
+}
+
+@mixin gotham-black($font-size) {
+	font-size: rem($font-size);
+	font-family: "GothamProBlack", Arial, sans-serif;
+}
+
+@mixin calibri-regular($font-size) {
+	font-size: rem($font-size);
+	font-family: "Calibri Regular", Arial, sans-serif;
+}
+
+@mixin calibri-bold($font-size) {
+	font-size: rem($font-size);
+	font-family: "Calibri Bold", Arial, sans-serif;
+	font-weight: bold;
+}
+
+@mixin timesnewroman-regular($font-size) {
+	font-size: rem($font-size);
+	font-family: "Times New Roman", Arial, sans-serif;
+}

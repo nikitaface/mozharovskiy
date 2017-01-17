@@ -1,0 +1,39 @@
+// PHOTO-GALLERY | PHOTOS.HTML
+// PHOTO-GALLERY | PHOTOS.HTML
+// PHOTO-GALLERY | PHOTOS.HTML
+.photo-gallery {
+	border-bottom: 1px solid #b3b3b3;
+	
+	.content {
+		padding-top: 50px;
+		padding-bottom: 80px;
+	}
+
+	.title {
+		margin-bottom: 30px;
+		color: $text-black;
+		text-transform: uppercase;
+		text-align: center;
+		@include calibri-bold(15px);
+	}
+}
+
+#links {
+	font-size: 0;
+}
+
+.grid-sizer {
+	width: 19.23%;
+}
+
+.links__link {
+	overflow: hidden;
+	display: inline-block;
+	width: 19.24%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.links__img {
+	max-height: 100%;
+}
